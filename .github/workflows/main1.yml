@@ -30,7 +30,7 @@ jobs:
         run: |
           git remote remove upstream || echo "upstream不存在，跳过删除"
           # 替换成你要同步的原仓库地址！！！
-          git remote add upstream https://github.com/MetaCubeX/ClashX.Meta.git
+          git remote add upstream https://github.com/MetaCubeX/Yacd-meta.git
           # 正确语法：拉取upstream并清理过时分支
           git fetch upstream --prune
 
